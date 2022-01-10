@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../cssreset/">
+    <style>
+        header {
+            width: 1000px;
+            height: 150px;
+            background-color: silver;
+            margin: 0 auto;
+
+        }
+
+        main {
+            width: 1000px;
+            height: 600px;
+            background-color: rgb(123, 160, 21);
+            margin: 10px auto;
+
+        }
+
+        footer {
+            width: 1000px;
+            height: 150px;
+            background-color: rgb(137, 114, 145);
+            margin: 0 auto;
+
+        }
+
+        nav {
+            width: 160px;
+            height: 100%;
+            background-color: skyblue;
+            float: left;
+        }
+
+        article {
+            width: 600px;
+            height: 100%;
+            background-color: rgb(187, 137, 179);
+            float: left;
+            margin: 0 10px;
+        }
+
+        aside {
+            width: 220px;
+            height: 100%;
+            background-color: rgb(91, 168, 173);
+            float: left;
+        }
+
+        .box1, .box2 {
+            width: 580px;
+            height: 290px;
+            background-color: tan;
+            margin: 5px auto;
+
+        }
+
+        .small1, .small2, .small3 {
+            width: 170px;
+            height: 280px;
+            background-color: tomato;
+            float: left;
+            margin: 5px 11px;
+        }
+
+        .title {
+            font-weight: bold;
+            margin-bottom: 5px;
+            margin-top: 0px;
+            font-size: 16px;
+            padding: 0%;
+            color: rgb(92, 68, 68);
+
+        }
+
+        li {
+            padding-left: 5px;
+            margin-bottom: 1px;
+        }
+
+        a {
+            text-decoration: none;
+            color: blanchedalmond;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+            display: inline-block;
+            width: 100%;
+        }
+
+
+        ul {
+
+            margin: auto 0px;
+            padding: 0px;
+            list-style: none;
+        }
+
+
+        li:hover {
+            background-color: rgb(173, 171, 171);
+        }
+
+        a:hover {
+            color: rgb(255, 254, 254)
+        }
+    </style>
+</head>
+
+<body>
+    /*
+    <!-- 头部标签 --> */
+    <header></header>
+    <!-- 创建网页主体 -->
+    <main>
+
+        <nav>
+            <h1 class="title">HTML 教程</h1>
+            <ul class="html">
+                <li>
+                    <a href="https://https://www.w3school.com.cn/html/index.asp">HTML</a>
+                </li>
+                <li>
+                    <a href="#">HTML5</a>
+                </li>
+                <li>
+                    <a href="#">XHTML</a>
+                </li>
+                <li>
+                    <a href="#">CSS</a>
+                </li>
+                <li>
+                    <a href="#">CSS3</a>
+                </li>
+                <li>
+                    <a href="#">Bootstrap5</a>
+                </li>
+                <li>
+                    <a id="tcp" href="#">TCP/IP</a>
+
+
+                </li>
+
+
+            </ul>
+            <h2 class="title">浏览器脚本</h2>
+            <ul>
+                <li>
+                    <a href="#">Javascript</a>
+                </li>
+                <li>
+                    <a href="#">HTML DOM</a>
+                </li>
+                <li>
+                    <a href="#">jQUERY Mobile</a>
+                </li>
+                <li>
+                    <a href="#">jQUERY</a>
+                </li>
+                <li>
+                    <a href="#">AJAX</a>
+                </li>
+                <li>
+                    <a href="#">JSON</a>
+                </li>
+                <li>
+                    <a href="#">DHTML</a>
+                </li>
+                <li>
+                    <a href="#">E4X</a>
+                </li>
+                <li>
+                    <a href="#">WMLScript</a>
+                </li>
+            </ul>
+            <h3 class="title">服务器脚本</h3>
+            <ul class="server-script">
+                <li>
+                    <a href="#">PHP</a>
+                </li>
+                <li>
+                    <a href="#">SQL</a>
+                </li>
+                <li>
+                    <a href="#">ASP</a>
+                </li>
+                <li>
+                    <a href="#">ADO</a>
+                </li>
+                <li>
+                    <a href="#">ASP.NET</a>
+                </li>
+                <li>
+                    <a href="#">VBScript</a>
+                </li>
+            </ul>
+            <h4 class="title">编程</h4>
+            <ul class="programing">
+                <li>
+                    <a href="#">Python</a>
+                </li>
+                <li>
+                    <a href="#">Python Numpy</a>
+                </li>
+                <li>
+                    <a href="#">机器学习</a>
+                </li>
+                <li>
+                    <a href="#">Java</a>
+                </li>
+            </ul>
+        </nav>
+
+
+        <article>
+            <div class="box1">
+
+            </div>
+            <div class="box2">
+                <div class="small1"></div>
+                <div class="small2"></div>
+                <div class="small3"></div>
+            </div>
+        </article>
+
+
+        <aside>
+
+        </aside>
+
+
+    </main>
+    <!-- 创建网页底部 -->
+    <footer></footer>
+</body>
+
+</html>
